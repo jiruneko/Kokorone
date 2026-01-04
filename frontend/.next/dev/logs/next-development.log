@@ -1,0 +1,8 @@
+[00:00:00.514] Server  LOG     ✓ Ready in 380ms
+[00:39:18.160] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/Kokorone.png" "received" null
+[00:39:51.037] Server  LOG     ✓ Compiled in 16ms
+[00:41:37.795] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/Kokorone.png" "received" null
+[00:41:37.810] Server  LOG     ✓ Compiled in 15ms
+[00:48:38.704] Server  LOG     ✓ Compiled in 10ms
+[00:50:44.444] Server  LOG     ✓ Compiled in 9ms
+[00:52:16.759] Server  LOG     ✓ Compiled in 13ms
