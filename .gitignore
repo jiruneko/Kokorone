@@ -1,4 +1,7 @@
 # env files (never commit)
+# Next.js
+.next/
+frontend/.next/
 .env
 .env.*
 frontend/.env
