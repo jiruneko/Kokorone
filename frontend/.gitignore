@@ -1,0 +1,7 @@
+# env (never commit)
+.env
+.env.*
+frontend/.env
+frontend/.env.*
+backend/.env
+backend/.env.*
