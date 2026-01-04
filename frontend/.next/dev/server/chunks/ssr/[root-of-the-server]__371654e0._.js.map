@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/nagatsukakenji/Kokorone/frontend/app/page.tsx"],"sourcesContent":["export default function Page() {\n  return (\n    <main style={{ padding: 20 }}>\n      <h1>Kokorone</h1>\n      <p>Chat API is ready.</p>\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,0PAAC;QAAK,OAAO;YAAE,SAAS;QAAG;;0BACzB,0PAAC;0BAAG;;;;;;0BACJ,0PAAC;0BAAE;;;;;;;;;;;;AAGT"}}]
-}
