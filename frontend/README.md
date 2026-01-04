@@ -1,36 +1,147 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Kokorone 🌱
 
-## Getting Started
+A Safety-First AI Companion for Emotional Support
 
-First, run the development server:
+Kokorone is a lightweight, safety-focused AI chat application designed to listen, not judge, and to prioritize user well-being above all else.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project demonstrates how to build a production-ready AI application with careful attention to mental-health safety, prompt design, and secure cloud deployment.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+✨ Concept
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Many AI chat apps focus on speed or intelligence.
+Kokorone focuses on safety, calmness, and trust.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+No diagnoses
 
-## Learn More
+No medical claims
 
-To learn more about Next.js, take a look at the following resources:
+No encouragement of harmful behavior
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Always empathetic, always grounded
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This makes Kokorone suitable as:
 
-## Deploy on Vercel
+a prototype for mental-health–adjacent services
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+a portfolio project for safety-critical AI systems
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+a foundation for ethical conversational AI
+
+🛡️ Safety-First Design
+
+Kokorone is explicitly designed to handle sensitive input responsibly.
+
+Core safety principles:
+
+Empathetic but non-directive responses
+
+Self-harm detection branch (keyword-based, extendable)
+
+No disclosure of internal system instructions
+
+Encouragement of external support when risk is detected
+
+Calm, Japanese-language responses by default
+
+This project intentionally avoids “therapy claims” and focuses on safe conversational support.
+
+🧠 Architecture Overview
+Frontend
+
+Next.js 16 (App Router)
+
+Client-side chat UI
+
+Message history preserved for continuous conversation
+
+Explicit send button (no accidental Enter submission)
+
+Backend (API Layer)
+
+Next.js API Routes
+
+Secure server-side calls to Azure OpenAI
+
+Safety-aware system prompt
+
+Structured error handling
+
+AI / Cloud
+
+Azure OpenAI Service
+
+Chat Completions API
+
+Environment variables managed securely (no secrets in repo)
+
+🧰 Tech Stack
+
+TypeScript
+
+Next.js 16
+
+Azure OpenAI
+
+Vercel (deployment)
+
+Prisma + PostgreSQL (optional backend logging / extensible)
+
+🚀 Live Demo
+
+👉 Deployed on Vercel
+(URL intentionally omitted here – add your Vercel URL)
+
+📸 UI Snapshot
+
+Minimal, calm interface
+
+Centered branding (Kokorone.png)
+
+Focus on text and emotional clarity
+
+No dark patterns, no pressure
+
+🔐 Security & Best Practices
+
+Environment variables never committed
+
+API keys managed via cloud provider
+
+Server-only AI access (no client exposure)
+
+Incident-response aware development process
+
+🧩 Why This Project Matters
+
+This repository demonstrates:
+
+How to build AI products responsibly
+
+How to integrate cloud AI services safely
+
+How to design systems that respect human vulnerability
+
+It is intentionally simple — because trust is built through restraint, not excess features.
+
+📬 Author
+
+Built by an independent full-stack developer with experience in:
+
+AI systems
+
+Cloud infrastructure
+
+Ethical product design
+
+Available for:
+
+AI integration projects
+
+Safety-critical applications
+
+International / remote development work
+
+⚠️ Disclaimer
+
+Kokorone is not a medical device and does not provide diagnosis or treatment.
+It is a technical and ethical demonstration project.
